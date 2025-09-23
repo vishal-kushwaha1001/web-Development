@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 400;
+    font-family: lato, sans-serif;
+    line-height: 1.8em;
+  
+}
+/* background image */
+.section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#pic1 {
+    background-image: url(image1.png);
+    min-height: 100%;
+}
+
+#pic2 {
+    background-image: url(image2.png);
+    min-height: 400px;
+}
+
+#pic3 {
+    background-image: url(image3.png);
+    min-height: 400px;
+}
+#pic4{
+    background-image: url(image4.webp);
+    min-height: 400px;
+}
+/* main heading */
+.sectionhead{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.headingbg{
+    background-color: rgb(51, 51, 51);
+    padding: 10px 20px; 
+    color: white;
+    font-style: italic;
+}
+ /* text section */
+h2{ text-transform: uppercase;
+    height: fit-content;
+    text-align: center; 
+    margin: 0px; 
+    padding-bottom: 5px;
+    font-weight: 700;
+ }  
+
+.text{
+    text-transform: capitalize;
+   padding: 5px  20px 30px 50px; 
+   height: fit-content;
+   text-align: justify;
+   background-color: rgb(246, 246, 246);
+   color: black;
+}
+
+
+ /* for dark slide */
+
+.Dark{background-color: rgb(59, 59, 59);
+    color: white;
+}
+
